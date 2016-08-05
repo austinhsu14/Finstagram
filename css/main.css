@@ -1,0 +1,178 @@
+body{
+    margin: auto;
+		font-size: 15px;
+		color: black;
+    line-height: 1px;
+		background-color: none;
+    padding:none;
+}
+
+.card {
+  border: 1px solid gray;
+}
+.heading {
+  background: none;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+.header-content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.homebutton{
+  cursor: crosshair;
+  outline:none;
+  background: none;
+  border: none;
+}
+.search{
+  margin: 0 auto;
+}
+.instaline{
+  display: inline;
+  background:none;
+  border-right: 1px solid black;
+  border-top: 20px solid black;
+}
+
+.instagramwriting{
+  padding-left: 10px;
+  display: inline;
+  font-size:30px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.picture {
+	display:block;
+	margin: 0 auto;
+  width:100%;
+}
+.threebuttons{
+  display:inline-block;
+  align-items: center;
+  margin: auto;
+  float: right;
+}
+.explore{
+  outline:none;
+  background: none;
+  border: none;
+  cursor: crosshair;
+}
+.heart{
+  outline:none;
+  background: none;
+  border: none;
+  cursor: crosshair;
+}
+.profile{
+  outline:none;
+  background: none;
+  border: none;
+  cursor: crosshair;
+}
+.heading input{
+  vertical-align: super;
+  margin-left: 135px;
+  width: 240px;
+}
+.topbox{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+.propic1-circle{
+  float:left;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-left: 15px;
+  width:36px;
+  height:36px;
+  vertical-align: bottom;
+}
+.text{
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 16px;
+}
+.box{
+  width: 600px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.commentsection{
+  border: 1px solid gray;
+  width: 598px;
+  height: 290px;
+}
+.comments{
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.size{
+  display:inline-block;
+  line-height: 10px;
+  font-size: 16px;
+}
+.add{
+  height: inherit;
+}
+.group{
+  max-width: 600px;
+}
+.cutoff {
+  border-bottom:1px solid gray;
+}
+
+
+/* Add Comments */
+.aligned-comments {
+  position:relative;
+  height: 171px;
+}
+
+.addcomment{
+  width:100%;
+  position:absolute;
+  vertical-align: text-bottom;
+  top:50%;
+  transform: translate(0,-50%);
+}
+.like{
+  outline:none;
+  background: none;
+  border: none;
+  cursor: crosshair;
+}
+.likebutton{
+  width:36px;
+  height:36px;
+}
+.addcomment input{
+  vertical-align: text-bottom;
+  padding: 10px;
+  outline:none;
+  border:none;
+  width: calc(100% - 120px);
+}
+.options{
+  float: right;
+  outline:none;
+  background: none;
+  border: none;
+  cursor: crosshair;
+}
+
+.ellipsis{
+  width:36px;
+  height:36px;
+}
