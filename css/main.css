@@ -24,7 +24,16 @@ body{
   outline:none;
   background: none;
   border: none;
+  position: relative;
 }
+/*.homebutton:hover {
+width:100px;
+}
+
+.explore:hover{
+  width: 35px;
+  height: 35px;
+}*/
 .search{
   margin: 0 auto;
 }
@@ -41,8 +50,29 @@ body{
   font-size:30px;
 }
 
-.icon {
+.explorebutton {
 	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.profilebutton{
+  width: 30px;
+	height: 30px;
+	margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.heartbutton{
+  width: 30px;
+	height: 30px;
+	margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.icon{
+  width: 30px;
 	height: 30px;
 	margin-left: 20px;
   margin-top: 10px;
