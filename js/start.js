@@ -8,7 +8,7 @@ $(document).ready(function() {
     });
 
   $('.explore').click(function(){
-    window.alert("you clicked the explore button");
+    window.location.href = "http://aaronhsushi.com/#/";
   });
 
   $('.heart').click(function(){
